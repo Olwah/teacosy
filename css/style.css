@@ -18,12 +18,16 @@ a {
 h2 {
   font-size: 30px;
   font-weight: bold;
-  margin: 10px 0;
+  text-align: center;
+  padding: 10px 0;
+  margin: 0;
 }
 
 h4 {
   font-weight: bold;
-  margin: 10px 0;
+  text-align: center;
+  padding: 10px 0;
+  margin: 0;
 }
 
 /** HEADER & NAV BAR STYLES **/
@@ -63,6 +67,11 @@ nav p {
 
 /** MAIN CONTENT **/
 
+.main-content {
+  width: 1200px;
+  margin: auto;
+}
+
 .mission {
   position: absolute;
   top: 69px;
@@ -79,4 +88,28 @@ nav p {
   background-color: black;
   padding: 10px 0px;
   margin: 0;
+}
+
+.tea-month {
+  position: absolute;
+  top: 840px;
+  left: 140px;
+  width: 1000px;
+  height: 750px;
+}
+
+.tea-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.products {
+  width: 300px;
+  height: 200px;
+  padding: 0 15px;
+}
+
+.tea-month h4 {
+  margin-bottom: 10px;
 }
