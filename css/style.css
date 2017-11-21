@@ -116,7 +116,7 @@ nav p {
 #locations {
   width: 1200px;
   height: 500px;
-  padding-top: 30px;
+  padding-top: 50px;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
 }
 
@@ -135,4 +135,16 @@ nav p {
   padding: 10px;
   margin: 0 20px;
   opacity: 1;
+}
+
+#contact {
+  height: 200px;
+  text-align: center;
+}
+
+/** FOOTER STYLES **/
+
+footer {
+  text-align: left;
+  margin-left: 20px;
 }
